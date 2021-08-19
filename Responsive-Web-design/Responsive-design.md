@@ -21,6 +21,27 @@
 
 ### Flex-box basics
 
+-  The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+- The flex-box models are supported in all modern browsers.
+
+- Before using the flex-box model, make sure that you define the flex container.
+
+- **Flex-direction** property defines in which direction the container wants to stack the flex items.  
+
+- Flex-direction: row; Here, Row is the default action.
+
+- The **justify-content** property is used to align the flex items.
+
+- 
+
+
+
+
+
+### Media-queries
+
+
 
 
 
