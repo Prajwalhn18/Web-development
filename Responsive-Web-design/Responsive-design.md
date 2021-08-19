@@ -14,3 +14,13 @@
 - Font-size = rem
 - padding and margin = em
 - widths = em or percentage 
+
+## Responsive layout basics
+
+- Elements normally have a display:block or a display:inline as a default from the browser.
+
+### Flex-box basics
+
+
+
+
