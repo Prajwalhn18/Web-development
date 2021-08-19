@@ -33,13 +33,24 @@
 
 - The **justify-content** property is used to align the flex items.
 
-- 
-
-
-
+- The **flex-grow** property specifies how much a flex item will grow relative to the rest of the flex items.
 
 
 ### Media-queries
+
+- Media-queries are really helpful for small screens. You can modify your content according to the sizes of the screens.
+
+- use @media rule to include a block of css properties, which gets executed once the condition is true. 
+
+- Go for mobile-first design.
+
+- Instead of changing styles when the width gets smaller than 768px, we should change the design when the width gets larger than 768px. This will make our design Mobile First.
+
+- We can include as many breakpoints as we like, for differentiating between different devices.
+
+- Some itmes which is not required on small/large devices can be hidden.
+
+
 
 
 
