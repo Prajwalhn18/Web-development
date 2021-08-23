@@ -9,6 +9,8 @@
 
     - Use rems for better use of sizes, especially while playing with the text. 
 
+-  Pixels are a type of length unit, which is what tells the browser how to size or space an item. 
+
 *How to decide which unit to choose?*
 
 - Font-size = rem
