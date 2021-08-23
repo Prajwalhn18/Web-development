@@ -1,0 +1,13 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-heading{
+    font-weight: center;
+}
+.blog-image{
+    border:solid orange;
+    width:20rem;
+}
