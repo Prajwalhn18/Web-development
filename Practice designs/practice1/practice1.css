@@ -1,0 +1,31 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-heading{
+    font-weight: center;
+}
+
+.blog-image{
+    border:solid orange;
+    width:20rem;
+}
+
+.author-info{
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+margin-left: 20px;
+align-items: flex-start;
+}
+
+#author-avatar{
+    width:3rem;
+    border-radius: 50%;
+}
+#author-name{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
