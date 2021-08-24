@@ -5,6 +5,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    background:#2f3640;
 }
 
 .card{
@@ -15,12 +16,16 @@ body{
 
     font-family: 'Times New Roman', Times, serif;
     border-radius: 18px;
-    background: #2c3e50;
+    background: white;
     text-align: center;
-    color:white;
+    color:black;
 }
 .card-image{
     grid-area:image;
+    background: url("img1.jpg");
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    background-size: cover;
 }
 
 .card-text{
@@ -29,4 +34,32 @@ body{
 }
 .card-status{
     grid-area:status;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius:15px ;
+    background: #c23616;
+}
+
+.card-status .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color:white;
+    
+}
+
+.card-status .type{
+    font-size:11px;
+    font-weight:300;
+    text-transform: uppercase;
+    
+}
+
+.card-status .type{
+    font-size: 22px;
+    font-weight: 500;
 }
