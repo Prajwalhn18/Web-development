@@ -19,6 +19,9 @@ body{
     background: white;
     text-align: center;
     color:black;
+
+    transition: 0.5s ease;
+    cursor: pointer;
 }
 .card-image{
     grid-area:image;
@@ -62,4 +65,9 @@ body{
 .card-status .type{
     font-size: 22px;
     font-weight: 500;
+}
+
+.card:hover{
+    transform: scale(1,1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
