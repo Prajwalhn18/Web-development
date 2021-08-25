@@ -14,5 +14,5 @@ function factorize(number){
     }
 }
 
-var f = factorize(-5);
+var f = factorize(5);
 console.log(f);
