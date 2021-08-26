@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+
+}
+
+h2{
+    font-size: 5rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.count-down{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.days,.hours,.minutes,.seconds{
+    font-size: 3rem;
+}
