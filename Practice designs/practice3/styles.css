@@ -15,7 +15,7 @@ h2{
     justify-content: center;
 }
 
-.count-down{
+.countdown{
     display: flex;
     text-align: center;
     justify-content: space-around;

@@ -5,14 +5,14 @@ const countDown = () =>{
 
     const seconds = 1000;
     const minutes = seconds * 60;
-    const hours = minutes * 60;
-    const days = hours * 24;
+    const hours = Math.floor(minutes * 60);
+    const days = Math.floor(hours * 24);
 
-   // const textDays = Math.floor(gap / days );
-   // console.log(textDays);
-    const textHours = Math.floor(gap%days) / hours;
-    //const textMinutes = Math.floor(gap % hours ) / minutes;
-    // const textSeconds = Math.floor(gap % minutes ) / seconds;
+    const textDays = Math.floor(gap / days );
+    console.log(textDays);
+    const textHours = Math.floor (gap%days) / hours;
+    const textMinutes = Math.floor(gap % hours ) / minutes;
+    const textSeconds = Math.floor(gap % minutes ) / seconds;
 
     document.querySelector(".days").innerText = textDays;
     document.querySelector(".hours").innerText = textHours;
