@@ -1,7 +1,7 @@
 // length of the last word
 
 function lengthOfLastWord(str){
-    let words = str.split(" ");
+    let words = str.trim().split(" ");
     let n = words.length;
     console.log(words[n-1]);
 
@@ -10,5 +10,5 @@ function lengthOfLastWord(str){
 
 }
 
-let str = "This is the last word";
+let str = " This is the last   word  ";
 lengthOfLastWord(str);
