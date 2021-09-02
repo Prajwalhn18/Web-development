@@ -33,5 +33,5 @@ function subArraySum(arr, arrLength, target){
 
 var arr = [1,2,3,4,5,6,7,8,9,10];
 var n = arr.length;
-var t = 15;
+var t = 18;
 subArraySum(arr,n,t);
