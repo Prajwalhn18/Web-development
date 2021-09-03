@@ -8,9 +8,8 @@ Algo:
 
 */
 
-
-function findI(arr,n,t){
-    var n,t;
+function findI(arr, n, t) {
+  var n, t;
   /* 
   This code works only when we have both numbers consecutively
   for(var i = 0;i < n;i++){
@@ -20,20 +19,19 @@ function findI(arr,n,t){
         }
     } */
 
-    for(var i=0;i<n;i++){
-        for(var j=0;j<n;j++){
-            if(arr[i]+arr[j] == t){
-                console.log("The indices are "+i,j);
-            }
-        }
+  for (var i = 0; i < n; i++) {
+    for (var j = 0; j < n; j++) {
+      if (arr[i] + arr[j] == t) {
+        console.log("The indices are " + i, j);
+      }
     }
+  }
 
-
-    console.log("No such elements add up to the target");
+  console.log("No such elements add up to the target");
 }
 
-let arr = [1,3,2,4,7,15,6,11];
+let arr = [1, 3, 2, 4, 7, 15, 6, 11];
 let size = arr.length;
 let target = 9;
 
-findI(arr,size,target);
+findI(arr, size, target);
