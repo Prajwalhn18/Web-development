@@ -1,0 +1,21 @@
+body{
+    margin:1rem;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.heading{
+    font-size: 26px;
+    font-style:bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify;
+}
+.content{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#more{
+    display:none;
+}
+
