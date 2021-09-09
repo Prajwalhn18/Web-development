@@ -52,3 +52,4 @@ class BinarySearchTree {
   tree.add(9);
   console.log(tree);
 })();
+
