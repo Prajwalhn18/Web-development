@@ -24,7 +24,7 @@ function binarySearch(arr,l,u,searchElement){
       return binarySearch(arr,mid+1,u,x)
   }
   else{
-      console.log("Enter the proper element that can be searched in the array.")
+      console.log("Enter the proper element that can be searched in the array.");
   }
     
 }
