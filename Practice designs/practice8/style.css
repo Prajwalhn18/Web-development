@@ -1,0 +1,16 @@
+.btnclass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.button1{
+    background-color: white;;
+    color:black;
+    width:14rem;
+    height: 4rem;
+    border-radius:10px;
+    
+}
