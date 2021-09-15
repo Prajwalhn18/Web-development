@@ -15,8 +15,8 @@ function removeDuplicates(){
     while(p1 != null && p1.next != null){
         p2 = p1;
 
-        while(p2 != null && p2.next != null){
-            if(p1.data = p2.next.data){
+        while(p2.next != null){
+            if(p1.data == p2.next.data){
                 duplicate = p2.next;
                 p2.next = p2.next.next; 
             }
