@@ -1,5 +1,5 @@
 # Articles
 | Column 1 | Column 2 |  
 |:-------:|:--------:|
-| [Event Loop](https://www.educative.io/edpresso/what-is-an-event-loop-in-javascript)| [what's this in JS](https://www.w3schools.com/js/js_this.asp)     
+| [Event Loop](https://www.educative.io/edpresso/what-is-an-event-loop-in-javascript)| [what's this in JS?](https://www.w3schools.com/js/js_this.asp)     
 | [Promises](https://www.geeksforgeeks.org/javascript-promises/) |      
