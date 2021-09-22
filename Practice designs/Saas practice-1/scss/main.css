@@ -1,0 +1,15 @@
+body {
+  background: grey;
+  color: white;
+  font-weight: 700;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content p {
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */
