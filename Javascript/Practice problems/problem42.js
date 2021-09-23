@@ -8,7 +8,29 @@
 
 */
 
-// O(n)
+
+//O(n) using frequency counter
+
+function sameSquare(arr1,arr2){
+    let frequencyCounter1 = {};
+    let frequencyCounter2 = {};
+
+    for(let val of arr1){
+        frequencyCounter1[val] = (frequencyCounter1[val] || 0)+1
+    }
+
+    for(let val of arr2){
+        frequencyCounter2[val] = (frequencyCounter2[val] || 0)+1
+    }
+
+    for(let key in frequencyCounter1){
+        if(!(key**2 in frequencyCounter2))return false;
+        if(frequencyCounter2[key**2] !== frequencyCounter1[key]) return false;
+    }
+    return true;
+}
+
+// O(n2)
 
 function same(arr1,arr2){
     let x = arr1.length;
@@ -27,23 +49,8 @@ function same(arr1,arr2){
 
 
 }
-
-// O(n2)
-function same2(arr1,arr2){
-if(arr1.length !== arr2.length) return false;
-
-for(let i =0;i<arr1.length;i++){
-    for(let j =0;j<arr2.length;j++){
-        if(arr1[i] === arr2[j]**2) return true;
-        else{
-            return false;
-        }
-    }
-}
-
-}
-
 let arr1 = [1,2,3];
-let arr2 = [1,9];
+let arr2 = [1,4,9];
+console.log(sameSquare(arr1,arr2));
 console.log(same(arr1,arr2));
 console.log(same2(arr1,arr2));
