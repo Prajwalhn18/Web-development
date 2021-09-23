@@ -5,6 +5,7 @@
 function countUniqueValues(arr){
     let n = arr.length;
     if(n == 0) return 0;
+    
     let i = 0;
     for(let j = 1;j < n;j++){
         if(arr[i] !== arr[j]){
