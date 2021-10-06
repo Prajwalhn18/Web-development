@@ -9,3 +9,4 @@
 ## React sources
 1. [Create-react-app](https://medium.com/byte-sized-react/using-create-react-app-a71aa0447a58)
 2. [Folder structure in react](https://medium.com/swlh/demystifying-the-folder-structure-of-a-react-app-c60b29d90836)
+3. [Virtual Dom](https://programmingwithmosh.com/react/react-virtual-dom-explained/)
