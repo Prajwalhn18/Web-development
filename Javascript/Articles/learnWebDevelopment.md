@@ -11,6 +11,7 @@
 2. [Folder structure in react](https://www.taniarascia.com/react-architecture-directory-structure/)
 3. [Virtual Dom](https://programmingwithmosh.com/react/react-virtual-dom-explained/)
 4. [React-Hooks](https://www.valentinog.com/blog/hooks/)
+5. [Conditional and Lists rendering](https://reactjs-bot.github.io/react/docs/lists-conditional-rendering.html)
 
 ## Projects
 1. [Simple-calulator](https://www.linkedin.com/pulse/how-build-personal-calculator-using-javascript-prajwal-haniya-h-n-)
