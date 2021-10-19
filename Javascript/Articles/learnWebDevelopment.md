@@ -13,5 +13,13 @@
 4. [React-Hooks](https://www.valentinog.com/blog/hooks/)
 5. [Conditional and Lists rendering](https://reactjs-bot.github.io/react/docs/lists-conditional-rendering.html)
 
+### React video courses:
+
+1. [Codevolution playlist](https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
+
+## Node.js
+1. [Nodejs.dev/learn](https://nodejs.dev/learn)
+2. [Node.js and Express.js](https://youtu.be/Oe421EPjeBE)
+
 ## Projects
 1. [Simple-calulator](https://www.linkedin.com/pulse/how-build-personal-calculator-using-javascript-prajwal-haniya-h-n-)
