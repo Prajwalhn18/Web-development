@@ -14,22 +14,5 @@
     background-color: white;
     padding: 20px 0;
     text-align: center;
-
     font-size: 30px;
 }
-
-/* .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 80px 200px ;
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-  }
-  
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  } */
