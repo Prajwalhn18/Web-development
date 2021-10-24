@@ -1,4 +1,6 @@
 # Articles
 
 1. [Linear Search](https://www.geeksforgeeks.org/linear-search/)
-2. []
+
+## Problem Solving techniques
+- [Backtracking](https://www.geeksforgeeks.org/backtracking-introduction/)
