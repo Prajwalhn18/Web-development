@@ -2,26 +2,25 @@
 //objects are reference type
 
 const person = {
-    name: "arjun",
-    age: 23,
-    hobbies: ["reading","cycling"],
-    "person friends": ["Dwyane","John","Max"]
-}
+  name: "arjun",
+  age: 23,
+  hobbies: ["reading", "cycling"],
+  "person friends": ["Dwyane", "John", "Max"],
+};
 
 //can access individual properties
-person.name; 
+person.name;
 
- //adding key value pairs if not exists
+//adding key value pairs if not exists
 person.gender = "male";
 
 console.log(person.gender);
 
 //dot vs bracket notation
-// -person.person friends is not accessbile as there is a space in between. 
+// -person.person friends is not accessbile as there is a space in between.
 //- here the bracket notation helps you
 
 console.log(person["person friends"]);
-
 
 //iterate the objects
 
@@ -32,6 +31,11 @@ Two types
 
 */
 
-for(let key in person){
-    console.log(key,':',person[key]);
+for (let key in person) {
+  console.log(key, ":", person[key]);
 }
+
+//object destructuring
+
+const { name, age } = person;
+console.log("This is the name:",name);
