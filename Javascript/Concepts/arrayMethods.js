@@ -31,3 +31,12 @@ function square(number){
 
 console.log(numberSquare);
 
+//filter method 
+
+const evenNumbers = arr.filter(isEven);
+
+function isEven(number){
+    return number % 2 === 0;
+}
+console.log(evenNumbers);
+
