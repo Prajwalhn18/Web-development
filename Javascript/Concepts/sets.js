@@ -9,3 +9,8 @@
 numberArr = [1,2,3,3,4]
 const numbers = new Set(numberArr);
 console.log(numbers);
+
+//Different set methods are:
+
+numbers.add(22);
+console.log(numbers);
