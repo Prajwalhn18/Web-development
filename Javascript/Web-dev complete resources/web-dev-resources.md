@@ -6,6 +6,7 @@
 4. [How DNS server works?](https://youtu.be/mpQZVYPuDGU)
 
 ## Video-resources
+
 1. [Javascript Basics-1](https://youtu.be/chx9Rs41W6g)
 2. [Javascript Basics-2](https://youtu.be/chx9Rs41W6g)
 3. [Javascript Basics-3](https://youtu.be/pAl_uGXKXq8)
