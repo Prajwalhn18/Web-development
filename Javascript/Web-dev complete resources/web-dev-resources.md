@@ -6,8 +6,9 @@
 4. [How DNS server works?](https://youtu.be/mpQZVYPuDGU)
 
 ## Video-resources
-
 1. [Javascript Basics-1](https://youtu.be/chx9Rs41W6g)
 2. [Javascript Basics-2](https://youtu.be/chx9Rs41W6g)
 3. [Javascript Basics-3](https://youtu.be/pAl_uGXKXq8)
 4. [React-basics Complete playlist](https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
+5. [React-testing-library](https://youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
+
