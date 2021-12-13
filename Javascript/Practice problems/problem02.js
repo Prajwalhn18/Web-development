@@ -6,7 +6,7 @@ function findSecond(arr, n) {
     console.log("Input not valid");
   }
 
-  var a = arr.sort();
+  var a = arr.sort((a,b)=>a-b);
   console.log(a);
   for (i = n - 2; i >= 0; i--) {
     if (arr[i] != arr[n - 1]) {
@@ -17,6 +17,6 @@ function findSecond(arr, n) {
   console.log("Second largest number not found");
 }
 
-let arr = [1, 2, 6, 4, 5, 8, 3, 7];
+let arr = [1, 2, 6, 4, 5, 18, 3, 17];
 let size = arr.length;
 findSecond(arr, size);
