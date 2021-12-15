@@ -18,3 +18,4 @@
 4. [React-basics Complete playlist](https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
 5. [React Styled Components](https://youtube.com/playlist?list=PLC3y8-rFHvwgu-G08-7ovbN9EyhF_cltM)
 6. [React-testing-library](https://youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
+7. [Building Twitter Clone](https://youtu.be/rJjaqSTzOxI)
