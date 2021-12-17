@@ -17,7 +17,7 @@ function findUniqueOrNot(str) {
     return true;
 
 }
-
+        
 let str = "abcd";
 let result = findUniqueOrNot(str);
 if(result) console.log("Unique String");
