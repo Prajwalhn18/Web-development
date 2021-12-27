@@ -56,4 +56,48 @@ class linkedList {
         }
         this.size++;
     }
+
+    //removing elements
+
+    removeElement(val) {
+        var current = this.head;
+        var prev = null;
+
+        while (current != null) {
+            if (current.element === element) {
+                if (prev == null) {
+                    this.head = current.next;
+                } else {
+                    prev.next = current.next;
+                }
+                this.size--;
+                return current.element;
+            }
+            prev = current;
+            current = current.next;
+        }
+    }
+
+    //print list
+    printList() {
+        var curr = this.head;
+        var str = "";
+        while (curr) {
+            str += curr.element + "-->";
+            curr = curr.next;
+        }
+        console.log(str);
+    }
 }
+
+var ll = new linkedList();
+
+ll.push(20);
+ll.push(30);
+ll.push(40);
+ll.push(50);
+ll.push(60);
+ll.push(70);
+
+console.log(ll);
+ll.printList();

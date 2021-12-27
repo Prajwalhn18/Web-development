@@ -1,30 +1,29 @@
 // Stack implementation
 
-class Stack{
-    constructor(){
+class Stack {
+    constructor() {
         this.items = [];
     }
 
     //push function
-    push(element){
+    push(element) {
         this.items.push(element);
     }
 
     //pop function
-    pop(){
-        if(this.items.length == 0){
+    pop() {
+        if (this.items.length == 0) {
             return "Underflow";
-        }
-        else{
+        } else {
             return this.items.pop();
         }
     }
 
     //print stack
-    printStack(){
+    printStack() {
         var str = " ";
-        for(var i =0;i<this.items.length;i++){
-            str += this.items[i]+ " ";
+        for (var i = 0; i < this.items.length; i++) {
+            str += this.items[i] + " ";
         }
         return str;
     }
@@ -36,5 +35,5 @@ stack.push(2);
 stack.push(3);
 
 console.log(stack.printStack());
-console.log("The popped item is "+ stack.pop());
+console.log("The popped item is " + stack.pop());
 console.log(stack.printStack());
