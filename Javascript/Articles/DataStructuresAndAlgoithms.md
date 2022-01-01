@@ -4,6 +4,7 @@
 2. [Tree implementaion]
 3. [Graph Implementation]
 4. [Stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+5. [Priori and Poteriori Analysis](https://www.geeksforgeeks.org/difference-between-posteriori-and-priori-analysis/)
 
 ## Problem Solving techniques
 
