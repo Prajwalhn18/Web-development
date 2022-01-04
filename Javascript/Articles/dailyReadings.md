@@ -11,6 +11,7 @@
 9. [Eloquent JavaScript](https://eloquentjavascript.net/)
 10. [JavaScript.com](https://www.javascript.com/resources)
 11. [Nodejs.dev](https://nodejs.dev/learn)
+12. [Kent C Dodds](https://kentcdodds.com/blog)
 
 # Articles
 
@@ -20,3 +21,8 @@
 4. [Hash Tables](https://www.freecodecamp.org/news/javascript-hash-table-associative-array-hashing-in-js/)
 5. [All about this keyword](https://codeburst.io/all-about-this-and-new-keywords-in-javascript-38039f71780c)
 6. [React.memo()](https://dmitripavlutin.com/use-react-memo-wisely/)
+7. [Forward and Backward Compatibility](https://stevenheidel.medium.com/backward-vs-forward-compatibility-9c03c3db15c9)
+
+# problems
+
+1. [Roman numeral to integer](https://dev.to/urfan/leetcode-roman-to-integer-with-javascript-1g3n)
