@@ -10,7 +10,7 @@ function callbackFunction() {
 
 wish("Prajs", callbackFunction);
 
-//
+// -------------------------------------------------
 
 function wish2(name) {
     console.log("Hello" + "" + name);
