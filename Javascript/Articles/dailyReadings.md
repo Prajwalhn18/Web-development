@@ -12,6 +12,7 @@
 10. [JavaScript.com](https://www.javascript.com/resources)
 11. [Nodejs.dev](https://nodejs.dev/learn)
 12. [Kent C Dodds](https://kentcdodds.com/blog)
+13. [James Sinclair](https://jrsinclair.com/)
 
 # Articles
 
