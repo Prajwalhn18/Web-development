@@ -102,3 +102,17 @@
 // let str2 = string2.split("").sort().join("");
 // if (str1 == str2) console.log("anagram");
 // else console.log("not anagram");
+
+// With arrow functions, the "this" keyword refers to its current surrounding scope, unlike regular functions!
+
+const shape = {
+    radius: 10,
+    diameter() {
+        return this.radius * 2;
+    },
+    perimeter: () => 2 * Math.PI * this.radius,
+};
+
+console.log(shape.diameter());
+console.log(shape.perimeter());
+// output : 20 and NaN
