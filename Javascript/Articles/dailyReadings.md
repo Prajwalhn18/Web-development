@@ -28,7 +28,7 @@
 
 -   [How I build JavaScript Apps in 2021](https://timdaub.github.io/2021/01/16/web-principles/)
 -   [Ten Rules for good code](http://hintjens.com/blog:96)
--
+-   [Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 
 # problems
 
