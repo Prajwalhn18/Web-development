@@ -15,6 +15,10 @@
 13. [James Sinclair](https://jrsinclair.com/)
 14. [Nolan Lawson](https://nolanlawson.com/)
 
+-   [JavaScript Weekly](https://javascriptweekly.com/)
+-   [Node Weekly](https://nodeweekly.com/)
+-   [React Weekly](https://reactnewsletter.com/)
+
 # Articles
 
 1. [Event Loop](https://www.educative.io/edpresso/what-is-an-event-loop-in-javascript)
