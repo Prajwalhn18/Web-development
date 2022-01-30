@@ -6,6 +6,7 @@ var timer;
 const watchCount = document.getElementById('watch_count');
 const startButton = document.getElementById('watch_count_start');
 const stopButton = document.getElementById('watch_count_stop');
+const resetButton = document.getElementById('watch_count_reset');
 
 startButton.addEventListener('click', () => {
     start();
@@ -14,6 +15,8 @@ startButton.addEventListener('click', () => {
 stopButton.addEventListener('click', () => {
     stop();
 });
+
+resetButton.addEventListener('click', resetCounter);
 
 function start() {
     timer = setInterval(() => {
@@ -27,11 +30,14 @@ function start() {
 function stop() {
     startButton.disabled = false;
     clearInterval(timer);
-    count = 0;
-    setCount(0);
     console.log('stopped');
 }
 
 function setCount(countNumber) {
     watchCount.innerText = countNumber;
+}
+
+function resetCounter() {
+    count = 0;
+    setCount(0);
 }
