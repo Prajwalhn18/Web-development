@@ -16,7 +16,7 @@ startButton.addEventListener('click', start);
 stopButton.addEventListener('click', stop);
 resetButton.addEventListener('click', resetCounter);
 
-//all the functions
+//Application functions
 
 function start() {
     timer = setInterval(() => {
@@ -30,6 +30,7 @@ function start() {
 function setCount(countNumber) {
     if (countNumber != 0 && countNumber % 60 == 0) {
         minute += 1;
+        count = 1;
     }
     watchCountMinutes.innerText = minute;
     watchCountSeconds.innerText = countNumber;

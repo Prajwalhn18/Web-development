@@ -40,16 +40,18 @@ body {
 .counter_metrics {
     display: flex;
     flex-direction: row;
-    justify-content: 1px space-around;
 }
 
 #seconds_indicator {
     font-size: 1rem;
+    margin-right: 1rem;
+    font-style: oblique;
 }
 
 #minutes_indicator {
+    margin-left: 3rem;
     font-size: 1rem;
-    margin-left: 1rem;
+    font-style: oblique;
 }
 
 .buttons {
