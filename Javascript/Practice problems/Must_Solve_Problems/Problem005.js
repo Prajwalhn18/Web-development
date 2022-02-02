@@ -47,7 +47,7 @@ function oneEditInsert(s1, s2) {
     return true;
 }
 
-let s1 = "pale";
-let s2 = "bake";
+let s1 = 'pale';
+let s2 = 'bake';
 
 console.log(oneEditAway(s1, s2));
