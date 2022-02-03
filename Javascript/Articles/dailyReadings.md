@@ -29,6 +29,7 @@
 6. [React.memo()](https://dmitripavlutin.com/use-react-memo-wisely/)
 7. [Forward and Backward Compatibility](https://stevenheidel.medium.com/backward-vs-forward-compatibility-9c03c3db15c9)
 8. [client side vs server side rendering](https://www.freecodecamp.org/news/what-exactly-is-client-side-rendering-and-hows-it-different-from-server-side-rendering-bd5c786b340d/)
+9. [How JS works?](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
 
 -   [How I build JavaScript Apps in 2021](https://timdaub.github.io/2021/01/16/web-principles/)
 -   [Ten Rules for good code](http://hintjens.com/blog:96)
