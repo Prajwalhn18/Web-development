@@ -18,6 +18,7 @@
 ### React video courses:
 
 1. [Codevolution playlist](https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
+2. [React and Firebase Authentication](https://youtu.be/9bXhf_TELP4)
 
 ## Node.js
 
@@ -32,3 +33,4 @@
 ## Projects
 
 1. [Simple-calulator](https://www.linkedin.com/pulse/how-build-personal-calculator-using-javascript-prajwal-haniya-h-n-)
+2. [ToDo Application](https://www.educative.io/blog/react-hooks-tutorial-todo-list)

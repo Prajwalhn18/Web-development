@@ -31,12 +31,14 @@
 8. [client side vs server side rendering](https://www.freecodecamp.org/news/what-exactly-is-client-side-rendering-and-hows-it-different-from-server-side-rendering-bd5c786b340d/)
 9. [How JS works?](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
 
--   [How I build JavaScript Apps in 2021](https://timdaub.github.io/2021/01/16/web-principles/)
--   [Ten Rules for good code](http://hintjens.com/blog:96)
--   [Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
+10. [How I build JavaScript Apps in 2021](https://timdaub.github.io/2021/01/16/web-principles/)
+11. [Ten Rules for good code](http://hintjens.com/blog:96)
+12. [Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 
 # problems
 
 1. [Roman numeral to integer](https://dev.to/urfan/leetcode-roman-to-integer-with-javascript-1g3n)
 2. [Expressing numbers in expanded form](https://www.tutorialspoint.com/expressing-numbers-in-expanded-form-javascript)
 3. [Expressing numbers in expanded form](https://stackoverflow.com/questions/57180513/write-number-in-expanded-form)
+
+
