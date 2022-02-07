@@ -40,5 +40,3 @@
 1. [Roman numeral to integer](https://dev.to/urfan/leetcode-roman-to-integer-with-javascript-1g3n)
 2. [Expressing numbers in expanded form](https://www.tutorialspoint.com/expressing-numbers-in-expanded-form-javascript)
 3. [Expressing numbers in expanded form](https://stackoverflow.com/questions/57180513/write-number-in-expanded-form)
-
-
