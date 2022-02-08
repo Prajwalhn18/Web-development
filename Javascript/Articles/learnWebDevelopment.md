@@ -24,6 +24,7 @@
 
 1. [Nodejs.dev/learn](https://nodejs.dev/learn)
 2. [Node.js and Express.js](https://youtu.be/Oe421EPjeBE)
+3. [Node School](https://nodeschool.io/)
 
 # Git
 
