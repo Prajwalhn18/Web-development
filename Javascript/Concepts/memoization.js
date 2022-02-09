@@ -1,20 +1,20 @@
 //Below code explains the concepts of memoization
+// memoization with closures
 
 const memoizeAdd = () => {
     let cache = {};
     return (value) => {
-        if(value in cache){
-            console.log("Tha value is in cache:");
+        if (value in cache) {
+            console.log('Tha value is in cache:');
             return cache[value];
-        }
-        else{
-            console.log("Calculating the value:");
+        } else {
+            console.log('Calculating the value:');
             let res = value + 20;
             cache[value] = res;
             return res;
         }
-    }
-}
+    };
+};
 
 const addition = memoizeAdd();
 console.log(addition(20));
