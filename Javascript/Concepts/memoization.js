@@ -17,5 +17,7 @@ const memoizeAdd = () => {
 };
 
 const addition = memoizeAdd();
+// using addition is important as only one cache is going to be created. But, if you are using memoizeAdd() everytime, then it is going to create multiple caches which is definitely not required.
+
 console.log(addition(20));
 console.log(addition(20));
