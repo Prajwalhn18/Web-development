@@ -36,3 +36,7 @@
 1. [Simple-calulator](https://www.linkedin.com/pulse/how-build-personal-calculator-using-javascript-prajwal-haniya-h-n-)
 2. [ToDo Application](https://www.educative.io/blog/react-hooks-tutorial-todo-list)
 3. [Tic-Tac-Toe Application](https://medium.com/@shifrb/how-to-build-tic-tac-toe-with-react-hooks-ca37f6040022)
+
+## Courses
+
+1. [Frontend Masters](https://frontendmasters.com/)
