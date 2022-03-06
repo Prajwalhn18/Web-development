@@ -34,6 +34,7 @@
 10. [How I build JavaScript Apps in 2021](https://timdaub.github.io/2021/01/16/web-principles/)
 11. [Ten Rules for good code](http://hintjens.com/blog:96)
 12. [Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
+13. [Writing your own map,filter & reduce functions](https://www.freecodecamp.org/news/how-to-write-your-own-map-filter-and-reduce-functions-in-javascript-ab1e35679d26/)
 
 # problems
 
