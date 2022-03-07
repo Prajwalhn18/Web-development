@@ -40,5 +40,6 @@
 
 ## Courses
 
-1. [Frontend Masters](https://frontendmasters.com/)
-2. [TypeScript](https://www.typescript-training.com/course/fundamentals-v3)
+-   [Frontend Masters](https://frontendmasters.com/)
+-   [The Odin Project](https://www.theodinproject.com/)
+-   [TypeScript](https://www.typescript-training.com/course/fundamentals-v3)
