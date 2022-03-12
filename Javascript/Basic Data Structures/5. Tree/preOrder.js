@@ -1,5 +1,5 @@
-class Node{
-    constructor(val){
+class Node {
+    constructor(val) {
         this.val = val;
         this.left = null;
         this.right = null;
@@ -7,9 +7,9 @@ class Node{
 }
 var root = null;
 
-function preOrder(node){
-    if(node == null) return;
-    console.log(node.val+" ");
+function preOrder(node) {
+    if (node == null) return;
+    console.log(node.val + ' ');
     preOrder(node.left);
     preOrder(node.right);
 }

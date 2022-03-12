@@ -1,19 +1,18 @@
-class Node{
-    constructor (val){
+class Node {
+    constructor(val) {
         this.val = val;
         this.left = null;
         this.right = null;
     }
-
 }
 
 var root = null;
 
-function inOrder(node){
-    if(node == null) return;
+function inOrder(node) {
+    if (node == null) return;
 
     inOrder(node.left);
-    console.log(node.val+" ");
+    console.log(node.val + ' ');
     inOrder(node.right);
 }
 
