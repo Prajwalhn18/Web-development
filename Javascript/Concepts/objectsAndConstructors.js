@@ -37,7 +37,7 @@ Book.prototype.publishedNumber = function () {};
 
 // object.create()
 
-const Book = {
+const Bookk = {
     //     this.title = title;
     //     this.author = author;
     show: function () {
@@ -45,7 +45,7 @@ const Book = {
     },
 };
 
-const book3 = Object.create(Book);
+const book3 = Object.create(Bookk);
 book3.author = 'Eric Johnsonasds';
 
 book3.show();
