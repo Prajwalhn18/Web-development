@@ -7,6 +7,12 @@
 
 --
 
+## JavaScript sources
+
+1. [Javascript Basics-1](https://youtu.be/chx9Rs41W6g)
+2. [Javascript Basics-2](https://youtu.be/Llsq1y-HWs4)
+3. [Javascript Basics-3](https://youtu.be/pAl_uGXKXq8)
+
 ## React sources
 
 1. [Create-react-app](https://medium.com/byte-sized-react/using-create-react-app-a71aa0447a58)
@@ -17,8 +23,11 @@
 
 ### React video courses:
 
-1. [Codevolution playlist](https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
-2. [React and Firebase Authentication](https://youtu.be/9bXhf_TELP4)
+-   [Codevolution playlist](https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
+-   [React and Firebase Authentication](https://youtu.be/9bXhf_TELP4)
+-   [React Styled Components](https://youtube.com/playlist?list=PLC3y8-rFHvwgu-G08-7ovbN9EyhF_cltM)
+-   [React-testing-library](https://youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
+-   [Building Twitter Clone](https://youtu.be/rJjaqSTzOxI)
 
 ## Node.js
 
