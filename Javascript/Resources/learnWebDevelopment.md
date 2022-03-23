@@ -1,6 +1,6 @@
 # Sources
 
-> For regular newsletters subscribe to [prajwalhaniya.substack.com](https://prajwalhaniya.substack.com/)
+> For regular newsletters subscribe to [newsletter @prajwalhaniya](https://prajwalhaniya.substack.com/)
 
 1. [Data Structures and ALgorithms(Javascript)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 2. [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
