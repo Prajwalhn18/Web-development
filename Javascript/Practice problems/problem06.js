@@ -1,15 +1,12 @@
 // Factorize the given number.
 // the factorial function is defined for only non-negative numbers.
 
-function factorize(number){
-    if(number < 0){
+function factorize(number) {
+    if (number < 0) {
         return -1;
-    }
-
-    else if(number == 0){
+    } else if (number == 0) {
         return 1;
-    }
-    else{
+    } else {
         return number * factorize(number - 1);
     }
 }
