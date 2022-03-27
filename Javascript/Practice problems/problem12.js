@@ -18,7 +18,7 @@
 //     str1.sort();
 //     str2.sort();
 
-//     for(var i = 0;i < x;i++)   
+//     for(var i = 0;i < x;i++)
 //         if(str1[i] != str2[i]){
 //             // console.log("Not anagram");
 //             return false;
@@ -27,7 +27,7 @@
 //             // console.log("The words are anagram");
 //             return true;
 //         }
-    
+
 // }
 
 // let str1 = ['r','e','d'];
@@ -44,33 +44,31 @@
 
 //solved using frequency counter
 
-function anagramOrNot(s,t){
-    if(s.length !== t.length) return "Not anagram";
+function anagramOrNot(s, t) {
+    if (s.length !== t.length) return 'Not anagram';
 
     let fcounter1 = {};
     let fcounter2 = {};
-    
-    for(let val of s){
-        fcounter1[val] = (fcounter1[val]||0)+1;
+
+    for (let val of s) {
+        fcounter1[val] = (fcounter1[val] || 0) + 1;
     }
     console.log(fcounter1);
 
-    for(let val of t){
-        fcounter2[val] = (fcounter2[val] || 0)+1;
+    for (let val of t) {
+        fcounter2[val] = (fcounter2[val] || 0) + 1;
     }
     console.log(fcounter2);
 
-    for(let key in fcounter1){
-        if(fcounter1[key] !== fcounter2[key]) return "Not Anagram";
-        else{
-            return "Anagram";
+    for (let key in fcounter1) {
+        if (fcounter1[key] !== fcounter2[key]) return 'Not Anagram';
+        else {
+            return 'Anagram';
         }
     }
-   
-
 }
 
-let str1 = "eat";
-let str2 = "tea";
+let str1 = 'eat';
+let str2 = 'tea';
 
-console.log(anagramOrNot(str1,str2));
+console.log(anagramOrNot(str1, str2));

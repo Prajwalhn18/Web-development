@@ -12,17 +12,17 @@ console.log(fib(10));
 
 */
 
-//Dynamic programming 
+//Dynamic programming
 
-function fib(n){
-    let fibA = new Array(n+2);
+function fib(n) {
+    let fibA = new Array(n + 2);
     let i;
 
     fibA[0] = 0;
     fibA[1] = 1;
 
-    for(i=2;i<=n;i++){
-        fibA[i] = fibA[i-1] + fibA[i-2];
+    for (i = 2; i <= n; i++) {
+        fibA[i] = fibA[i - 1] + fibA[i - 2];
     }
     return fibA[n];
 }
