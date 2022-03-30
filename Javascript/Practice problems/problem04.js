@@ -13,5 +13,5 @@ function reverse(n) {
     return;
 }
 
-var x = 12345;
+var x = 123;
 reverse(x);
