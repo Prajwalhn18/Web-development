@@ -2,17 +2,11 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello, This message is from Node');
+    res.send('Hello, This is from Node');
 });
 
-const server = app.listen(3000, () =>
-    console.log('The server is up and running')
-);
-
-process.on('SIGTERM', () => {
-    server.close(() => {
-        console.log('The server is terminated');
-    });
+app.get('/api', (req, res) => {
+    res.send('This the route for APIs');
 });
-
-process.kill(process.pid, 'SIGTERM');
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`The server is up and running at ${port}`));
